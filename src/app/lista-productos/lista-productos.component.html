@@ -1,0 +1,29 @@
+<!-- <div id="comida">
+    <h4>Lista Comida</h4>
+    <img src="http://marruzella.es/wp-content/uploads/2017/06/marruzella_burguer_completa-300x300.jpg"
+        class="img-rounded" alt="Cinque Terre" width="100" height="100">
+    
+
+</div>
+
+<div id="bebida">
+    <h4>Lista Bebida</h4>
+    <img src="http://www.ristorantedamika.com/wp-content/uploads/2016/04/cc-33cl-300x300.jpg" class="img-rounded"
+        alt="Cinque Terre" width="100" height="100">
+   
+
+</div> -->
+
+<div class="row">
+    <div class="col-12">
+        {{titulo}}
+
+    </div>
+
+</div>
+<div class="row">
+    <div class="col-3" *ngFor="let producto of productos" (click)="elegirProducto(producto)">
+        <img [src]="producto.imagen" class="img-fluid">
+        <p>{{producto.precio}}€</p>
+    </div>
+</div>

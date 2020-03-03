@@ -1,0 +1,40 @@
+/* #comida{
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 50px;
+    background-color: rgb(16, 236, 16);
+}
+
+#comida h4{
+    text-align: center;
+    background-color: rgb(6, 56, 6);
+    color: white;
+}
+#comida img{
+    margin-left: 19px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#bebida{
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 50px;
+    background-color: rgb(13, 98, 119);
+    margin-top: 50px;
+}
+
+#bebida h4{
+    text-align: center;
+    background-color: rgb(4, 5, 83);
+    color: white;
+}
+#bebida img{
+    margin-left: 19px;
+    margin-top: 10px;
+    border-radius: 10px;
+} */
